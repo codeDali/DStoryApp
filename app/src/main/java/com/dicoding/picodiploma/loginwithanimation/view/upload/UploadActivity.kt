@@ -169,8 +169,10 @@ class UploadActivity : AppCompatActivity() {
                     val latitude = currentLocation?.latitude.toString().toRequestBody("text/plain".toMediaType())
                     val longitude = currentLocation?.longitude.toString().toRequestBody("text/plain".toMediaType())
                     viewModel.uploadStory(multipartBody, requestBody, latitude, longitude)
+                    finish()
                 } else {
                     viewModel.uploadStory(multipartBody, requestBody)
+                    finish()
                 }
             }
         } ?: showToast(getString(R.string.empty_image_warning))
@@ -183,6 +185,8 @@ class UploadActivity : AppCompatActivity() {
     private fun showToast(message: String) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
+
+
 
     override fun onDestroy() {
         super.onDestroy()

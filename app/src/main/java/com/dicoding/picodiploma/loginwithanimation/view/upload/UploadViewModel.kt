@@ -1,5 +1,6 @@
 package com.dicoding.picodiploma.loginwithanimation.view.upload
 
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -34,4 +35,5 @@ class UploadViewModel(private val repository: UserRepository) : ViewModel() {
             }
         }
     }
+
 }

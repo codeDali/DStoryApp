@@ -28,29 +28,6 @@ class MainViewModel(private val repository: UserRepository) : ViewModel() {
         return repository.getSession().asLiveData()
     }
 
-//    fun getStories() {
-//        viewModelScope.launch {
-//            _isLoading.value = true
-//            try {
-//                val response = repository.getStory()
-//                _stories.value = response
-//            } catch (e: HttpException) {
-//                val errorBody = e.response()?.errorBody()?.string()
-//                if (errorBody != null && errorBody.startsWith("<html>")) {
-//                    _stories.value = StoriesResponse(error = true, message = "Received HTML response instead of JSON")
-//                } else {
-//                    val errorResponse = Gson().fromJson(errorBody, ErrorResponse::class.java)
-//                    val errorMessage = errorResponse.message
-//                    _stories.value = StoriesResponse(error = true, message = errorMessage)
-//                }
-//            } catch (e: Exception) {
-//                _stories.value = StoriesResponse(error = true, message = "An error occurred: ${e.message}")
-//            } finally {
-//                _isLoading.value = false
-//            }
-//        }
-//    }
-
     fun logout() {
         idlingResource.increment()
         try {
