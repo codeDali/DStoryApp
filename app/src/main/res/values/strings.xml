@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">LoginWithAnimation</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Tempat dimana kamu bisa bertukar cerita tentang pengalaman kamu bersama Dicoding</string>
+    <string name="title_welcome_page">Selamat datang di<font color="#2D3D4F"> Dicoding Story App!</font></string>
+    <string name="title_signup_page">Isi pake data diri kamu</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Masuk dulu pake akun kamu</string>
+    <string name="title_login_page">Kamu udah gak sabar buat ngebagiin cerita?</string>
+    <string name="name">Nama</string>
+    <string name="message_main_page">Selamat Belajar di Dicoding.</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Keluar</string>
+    <string name="password_warning">Password kamu harus lebih dari 8 karakter</string>
+    <string name="error_empty_email">Email tidak boleh kosong</string>
+    <string name="error_invalid_email">Masukkan email yang valid</string>
+    <string name="name_warning">Nama tidak boleh kosong\n</string>
+    <string name="lipsum_1p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ligula est, rhoncus vel diam et, rhoncus accumsan nibh. Integer lacinia ex ac nibh pulvinar, ac volutpat mi placerat. Morbi semper nibh et ex tincidunt, eget faucibus ligula dignissim. Integer porta nisi vel posuere maximus. Nam faucibus nulla in finibus lacinia. Donec ornare dui id velit blandit, non tincidunt magna ultricies. Vivamus nec ipsum id orci vulputate vestibulum at vel tellus. Sed fermentum urna nec semper interdum. Phasellus placerat vel diam ac finibus. In maximus sollicitudin ultrices. Praesent tempor arcu consequat ex accumsan sagittis. Etiam sollicitudin nec turpis non vehicula. Nunc consectetur, quam vel molestie porttitor, libero lacus blandit sem, at hendrerit arcu metus id ligula. Nunc accumsan sem at ante aliquet, ut ultricies dui euismod.</string>
+    <string name="empty_image_warning">Gambar anda kosong\n</string>
+    <string name="upload">upload\n</string>
+    <string name="error_password">Password harus lebih dari 8 karakter\n\n</string>
+    <string name="open_map">map\n</string>
+    <string name="tambahkan_lokasi">Tambahkan Lokasi</string>
+    <string name="muat_ulang">Muat Ulang</string>
+    <string name="user_story">User Story</string>
+    <string name="orang_sedang_berswafoto">Orang sedang berswafoto</string>
+    <string name="invalid_email_error">Masukkan email yang valid\n</string>
+</resources>
